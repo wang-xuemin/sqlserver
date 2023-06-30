@@ -5,7 +5,7 @@
 ```go
 import (
   "github.com/wang-xuemin/sqlserver"
-  "gorm.io/gorm"
+  "github.com/wang-xuemin/gorm"
 )
 
 // github.com/microsoft/go-mssqldb

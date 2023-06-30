@@ -1,8 +1,8 @@
 package sqlserver
 
 import (
-	"gorm.io/gorm"
-	"gorm.io/gorm/callbacks"
+	"github.com/wang-xuemin/gorm"
+	"github.com/wang-xuemin/gorm/callbacks"
 )
 
 var updateFunc = callbacks.Update(&callbacks.Config{})

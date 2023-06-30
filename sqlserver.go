@@ -8,12 +8,12 @@ import (
 	"strings"
 
 	_ "github.com/wang-xuemin/go-mssqldb"
-	"gorm.io/gorm"
-	"gorm.io/gorm/callbacks"
-	"gorm.io/gorm/clause"
-	"gorm.io/gorm/logger"
-	"gorm.io/gorm/migrator"
-	"gorm.io/gorm/schema"
+	"github.com/wang-xuemin/gorm"
+	"github.com/wang-xuemin/gorm/callbacks"
+	"github.com/wang-xuemin/gorm/clause"
+	"github.com/wang-xuemin/gorm/logger"
+	"github.com/wang-xuemin/gorm/migrator"
+	"github.com/wang-xuemin/gorm/schema"
 )
 
 type Config struct {

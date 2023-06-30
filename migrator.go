@@ -6,10 +6,10 @@ import (
 	"regexp"
 	"strings"
 
-	"gorm.io/gorm"
-	"gorm.io/gorm/clause"
-	"gorm.io/gorm/migrator"
-	"gorm.io/gorm/schema"
+	"github.com/wang-xuemin/gorm"
+	"github.com/wang-xuemin/gorm/clause"
+	"github.com/wang-xuemin/gorm/migrator"
+	"github.com/wang-xuemin/gorm/schema"
 )
 
 type Migrator struct {
