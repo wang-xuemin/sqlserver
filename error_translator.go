@@ -1,6 +1,7 @@
 package sqlserver
 
 import (
+	"github.com/wang-xuemin/go-mssqldb"
 	"github.com/wang-xuemin/gorm"
 )
 
